@@ -15,7 +15,16 @@ body, p {
     font-family: 'Noto Sans KR', sans-serif !important;
     font-weight: normal !important;
 }
-h2 {
+h1, h2 {
     font-family: 'Noto Sans KR', sans-serif !important;
     font-weight: bold !important;
+}
+
+/* changed by nakjoo, 20190322*/
+.logo {
+    padding: 10px !important;
+}
+
+div #header_main {
+    background-color: #454545 !important;
 }
