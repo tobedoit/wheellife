@@ -9,9 +9,13 @@ Text Domain:  enfold
 Customized : by nakjoo, 2019_03
 */
 
-.test { color: black; }
-.test2 {color: green;}
-.test3 { text-align: center; }
-.test4 { color: yellow; }
-.test5 { color : #f7f7f7; }
-.test6 { text-align: left; }
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700&subset=korean');
+
+body, p {
+    font-family: 'Noto Sans KR', sans-serif !important;
+    font-weight: normal !important;
+}
+h2 {
+    font-family: 'Noto Sans KR', sans-serif !important;
+    font-weight: bold !important;
+}
